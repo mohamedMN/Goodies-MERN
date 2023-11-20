@@ -1,0 +1,46 @@
+.LeftSideLog{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0px;
+    z-index: 100;
+}
+
+.Welcome-Label{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 999;
+}
+.Background-Login{
+    background-color: #183D3D;
+    width: 35%;
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    z-index: 0;
+}
+.additional-speech{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+}
+.Logo-Left-Admin{
+    width: 100%;
+    height: 100%;
+}
+.Logo-container-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
